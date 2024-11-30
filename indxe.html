@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="Ka.css">
+</head>
+<body>
+  <div class="register-container">
+    <div class="register-header">
+      <h2>Register</h2>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <!-- <input type="email" id="email" placeholder="Enter your email"> -->
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" 
+        placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" 
+        placeholder="Enter your password">
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" 
+        placeholder="Confirm your password">
+      </div>
+      <div class="form-group">
+        <label for="role">Select Role</label>
+        <select id="role">
+          <option selected>--Select Role--</option>
+          <option value="admin">Admin</option>
+          <option value="customer">Customer</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-register">Register</button>
+    </form>
+  </div>
+</body>
+</html>

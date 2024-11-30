@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    background-color: #1f1f1f;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-container {
+    width: 400px;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .register-header {
+    background-color: #28a745;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .register-header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  select {
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .btn-register {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-register:hover {
+    background-color: #218838;
+  }
